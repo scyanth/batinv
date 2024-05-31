@@ -1,0 +1,30 @@
+#barre_menus {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #2f3f64;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+#barre_menus a, #btn_barre_menus {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #a3acc2;
+    display: block;
+}
+#barre_menus a:hover {
+    color: #ccd1dc;
+}
+#btn_barre_menus {
+    bottom: 100px;
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 50px;
+}
